@@ -1,7 +1,10 @@
 # Leetcode 1976: Number of Ways to Arrive at Destination
 # https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+import collections
+import heapq
+
 class Solution:
-    def countPaths(self, n: int, roads: List[List[int]]) -> int:
+    def countPaths(self, n: int, roads: list[list[int]]) -> int:
         graph = collections.defaultdict(list)
         for u, v, w in roads:
             graph[u].append((v, w))
