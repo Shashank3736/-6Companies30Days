@@ -5,8 +5,6 @@ class Solution:
         n = len(s)
         if n == 1:
             return ''
-        if n == 2:
-            return s[0]
         dp = [0] * n
         for i in range(1, n):
             j = dp[i - 1]
