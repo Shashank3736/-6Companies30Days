@@ -1,7 +1,7 @@
 # Leetcode 391: Perfect Rectangle
 # https://leetcode.com/problems/perfect-rectangle/
 class Solution:
-    def isRectangleCover(self, rectangles: List[List[int]]) -> bool:
+    def isRectangleCover(self, rectangles: list[list[int]]) -> bool:
         if not rectangles:
             return False
         area = 0

@@ -1,7 +1,7 @@
 # Leetcode 368: Largest Divisible Subset
 # https://leetcode.com/problems/largest-divisible-subset/
 class Solution:
-    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
+    def largestDivisibleSubset(self, nums: list[int]) -> list[int]:
         if not nums:
             return []
         nums.sort()

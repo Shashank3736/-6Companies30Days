@@ -1,7 +1,7 @@
 # Leetcode 207: Course Schedule
 # https://leetcode.com/problems/course-schedule/
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
         def helper(i, visited, path, graph):
             if visited[i] == 1:
                 return True

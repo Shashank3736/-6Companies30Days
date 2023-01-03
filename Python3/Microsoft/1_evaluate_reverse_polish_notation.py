@@ -1,7 +1,7 @@
 # Leetcode 150: Evaluate Reverse Polish Notation
 # https://leetcode.com/problems/evaluate-reverse-polish-notation/
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens: list[str]) -> int:
         stack = []
         for i in tokens:
             if i == '+':

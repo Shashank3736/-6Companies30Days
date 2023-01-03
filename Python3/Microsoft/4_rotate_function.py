@@ -1,7 +1,7 @@
 # Leetcode 396: Rotate Function
 # https://leetcode.com/problems/rotate-function/
 class Solution:
-    def maxRotateFunction(self, nums: List[int]) -> int:
+    def maxRotateFunction(self, nums: list[int]) -> int:
         if not nums:
             return 0
         n = len(nums)
